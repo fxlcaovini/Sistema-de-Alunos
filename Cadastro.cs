@@ -49,7 +49,7 @@ namespace Trabalho
 
             if (!radiobFeminino.Checked && !radiobMasculino.Checked && !radiobOutro.Checked)
             {
-                MessageBox.Show("Selecione um gênero", "Campo obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Selecione um gênero", "Campo Obrigatório", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 

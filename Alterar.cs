@@ -25,7 +25,7 @@ namespace Trabalho
                 radiobMasculino.Checked = true;
             else
                 radiobOutro.Checked = true;
-
+            
             txtMatricula.KeyPress += TxtMatricula_KeyPress;
         }
 
@@ -34,7 +34,7 @@ namespace Trabalho
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
-                MessageBox.Show("O campo matrícula deve conter apenas números.", "Entrada Inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("O campo matricula deve conter apenas números.", "Entrada Inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

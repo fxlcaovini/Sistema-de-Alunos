@@ -53,6 +53,7 @@ namespace Trabalho
             catch (Exception ex)
             {
                 MessageBox.Show("Erro ao tentar fazer login: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
             }
         }
 
